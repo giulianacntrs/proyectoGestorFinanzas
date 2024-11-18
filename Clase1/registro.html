@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="iniciosesion.html">Iniciar sesión</a></li>
+        <li><a href="registro.html">Registrarse</a></li>
+    </ul>
+</nav>
+
+<body>
+    <header>
+        <h1>Gestor de finanzas personales👛</h1>
+        <p>Está es una pagina que te ayuda a gestionar mejor tus gastos. Espero que te gusté!</p>
+    </header>
+    <div class="form-container" id="form-registro">
+        <h2>Registrarse</h2>
+        <form action="/register" method="POST">
+            <input type="email" class="input-field" placeholder="Correo electrónico" name="email" required><br><br>
+            <input type="password" class="input-field" placeholder="Contraseña" name="password" required><br><br>
+            <input type="password" class="input-field" placeholder="Confirmar contraseña" name="confirm-password"
+                required><br><br>
+            <button type="submit" class="button">Registrarse</button>
+        </form>
+    </div>
+    <footer>
+        <p><b>Giuliana Canteros 2024</b></p>
+    </footer>
+</body>
+
+</html>

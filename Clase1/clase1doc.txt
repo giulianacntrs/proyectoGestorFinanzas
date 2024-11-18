@@ -1,0 +1,10 @@
+ls -a muestra los archivos ocultos
+mkdir crear carpeta
+touch crea un archivo
+cdd .. volver a la carpeta principal
+New-item en power
+etiquetas semanticas 
+solo usar un solo H1, no repetir los h1
+
+4 elementos principales
+#claro/
