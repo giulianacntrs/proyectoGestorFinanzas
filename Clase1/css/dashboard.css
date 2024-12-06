@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+:root {
+    --color-fondo: #e9dfd0;
+    --color-primario: #f9f1e7;
+    --color-secundario: #e7d1ba;
+    --color-terciario: #948371;
+    --color-texto-principal: #D6CCC2;
+    --color-texto-secundario: #806565;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-texto-secundario);
+}
+/******* NAVBAR *********/
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0eeee00;
+    padding: 10px 0;
+    z-index: 1000;
+    padding: 10px;
+}
+
+
+nav img {
+    width: 20%;
+    margin-left: 1vh;
+    margin-top: -2vh;
+}
+
+
+ul {
+    margin-top: 3vh;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #eee9e3;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    color: var(--color-texto-secundario);
+}
+
+.sidebar a {
+    color: var(--color-texto-secundario);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #007bff;
+}
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+.card-body {
+    font-size: 1.2em;
+}
+.table td, .table th {
+    vertical-align: middle;
+}
+footer {
+    background-color: var(--color-secundario);
+    color: var(--color-texto-secundario);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+    height: 100%;
+    padding: 30px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+  }
+  
+  .dark-mode header {
+    background-color: #333;
+  }
+  
+  .dark-mode footer {
+    background-color: #333;
+  }
+  
+  .dark-mode .card {
+    border-color: #555;
+  }
+  
+  .dark-mode .mode-toggle {
+    background: #333;
+    color: #f1f1f1;
+  }
